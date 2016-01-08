@@ -16,3 +16,5 @@ Desenvolver algoritmo capaz de:
 * Criada a classe Palavra com os métodos necessários para realizar as operações de string solicitadas
 
 * Criado o arquivo teste.php para instanciar as classes com parâmetros dos tipos solicitados e exibir na tela o resultado dos métodos contidos nas classes criadas.
+
+**obs.:** _código testado na versão 5.3.8 do PHP_
