@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <?php
 
 require_once "Calculadora.class.php";
@@ -5,19 +6,15 @@ require_once "Palavra.class.php";
 
 $array1 = array(1,2,3,4,5,6,7,8,9,1,2,3,1,2,1,9,9,9,9,0,0,0,0,0,0,0,0,1,5,3,8);
 $array1 = array(1,2,3,3);
-$calculadora = new Calculadora($array1);
+$minhaPalavra = "socorram-me subi no ônibus em Marrocos";
+$minhaPalavra = "somávamos";
 
-?>
-<meta charset="UTF-8">
-<?php
+$calculadora = new Calculadora($array1);
 
 echo "<pre>".print_r($array1, 1)."</pre>";
 echo "<pre>moda: ".print_r($calculadora->moda(), 1)."</pre>";
 echo "<pre>media: ".print_r($calculadora->media(), 1)."</pre>";
 echo "<pre>mediana: ".print_r($calculadora->mediana(), 1)."</pre>";
-
-$minhaPalavra = "socorram-me subi no ônibus em Marrocos";
-$minhaPalavra = "somávamos";
 
 echo "<br>";
 echo "<br>";
